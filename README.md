@@ -28,14 +28,25 @@ Here is the request-response in POST MAN <br>
 <img width="960" alt="image" src="https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/19fcd169-512d-4861-b1f3-885540e52dec">
 <br>
 <br>
-3.**GETTaskByName** ---> Which retrieve the Data from the collection with checking match with taskName <br>
+3.**GETTaskByName** ---> Which retrieves the Data from the collection with checking match with taskName <br>
 <br>
 <br>
 <img width="960" alt="image" src="https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/131be76e-5e29-4a8c-94c1-7bebdd9eeb16">
 <br>
 <br>
 
-4.**POSTtask** ---> which will Store a Data of task in collection
+4.**GET TaskByAssigneeNameSortByStartTime** ---> Which will retrieve the data from the collection by checking with TaskAssignee Name And will sort the Data by StartTime. It will limited to only 10 tasks.
+<br>
+<br>
+<img width="960" alt="image" src="https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/4c0ffdad-0f30-4059-9588-5e669f70fb00">
+<br><br><br>
+
+<img width="960" alt="image" src="https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/6b914614-eecb-4a3a-9b72-708dbd89b616">
+
+
+<br><br><br><br><br><br>
+
+5.**POSTTask** ---> which will Store a Data of task in collection
 <br>
 <br>
 Requesting for storing Task details
@@ -47,7 +58,7 @@ Task Details Stored Successfully
 <br>
 <br>
 
-5.**DELETE** ---> which will remove the data from the database
+6.**DELETE** ---> which will remove the data from the database
 <br>
 <br>
 Re questing for delete the task with id 121
