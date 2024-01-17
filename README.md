@@ -11,10 +11,11 @@ With DataBase = TasksDataBase and Collection = TasksCollection
 <br>
 <br>
 
-Here is the request-response in POST MAN <br>
+Here is the request-response in POST-MAN 
+<br>
 <br>
 
-1. GETAllTAsks ---> Which retrieves all the Data from the collection<br>
+1. **GET AllTasks** ---> Which retrieves all the Data from the collection<br>
 <br>
 <br>
 
@@ -22,13 +23,13 @@ Here is the request-response in POST MAN <br>
 <br>
 <br>
 
-2. **GETTaskByID** ---> Which retrieve the Data from the collection with checking match with taskID <br>
+2. **GET TaskByID** ---> Which retrieve the Data from the collection with checking match with taskID <br>
 <br>
 <br>
 <img width="960" alt="image" src="https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/19fcd169-512d-4861-b1f3-885540e52dec">
 <br>
 <br>
-3.**GETTaskByName** ---> Which retrieves the Data from the collection with checking match with taskName <br>
+3.**GET TaskByName** ---> Which retrieves the Data from the collection with checking match with taskName <br>
 <br>
 <br>
 <img width="960" alt="image" src="https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/131be76e-5e29-4a8c-94c1-7bebdd9eeb16">
@@ -44,9 +45,9 @@ Here is the request-response in POST MAN <br>
 <img width="960" alt="image" src="https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/6b914614-eecb-4a3a-9b72-708dbd89b616">
 
 
-<br><br><br><br><br><br>
+<br><br><br>
 
-5.**POSTTask** ---> which will Store a Data of task in collection
+5.**POST Task** ---> Which will Store the Data of the task in the Collection
 <br>
 <br>
 Requesting for storing Task details
@@ -61,7 +62,8 @@ Task Details Stored Successfully
 6.**DELETE** ---> which will remove the data from the database
 <br>
 <br>
-Re questing for delete the task with id 121
+Requesting for deleting the task with ID 121
+<br><br>
 ![image](https://github.com/ManikantaBobbili/KaiburrTask1/assets/69582084/eb111f5c-6ffe-4580-9e3d-c4c3c4073464)
 <br><br>
 Successfully removed from DataBase
